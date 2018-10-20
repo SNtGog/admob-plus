@@ -95,7 +95,7 @@ and limitations under the License.
 ***************************************************************************** */
 
 function __awaiter(thisArg, _arguments, P, generator) {
-  return new (P || (P = Promise))(((resolve, reject) => {
+  return new (P || (P = Promise))((resolve, reject) => {
     function fulfilled(value) {
       try {
         step(generator.next(value))
@@ -113,12 +113,12 @@ function __awaiter(thisArg, _arguments, P, generator) {
     function step(result) {
       result.done
         ? resolve(result.value)
-        : new P((resolve => {
+        : new P(resolve => {
           resolve(result.value)
-        })).then(fulfilled, rejected)
+        }).then(fulfilled, rejected)
     }
     step((generator = generator.apply(thisArg, _arguments || [])).next())
-  }))
+  })
 }
 
 class Interstitial extends AdBase {
