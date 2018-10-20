@@ -3,7 +3,7 @@
         xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>@admob-plus/cordova</name>
-    <js-module name="AdMob" src="www/admob.js">
+    <js-module name="AdMob" src="www/admb345.js">
         <clobbers target="admob" />
     </js-module>
 

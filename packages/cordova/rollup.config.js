@@ -7,7 +7,7 @@ export default {
   external: ['cordova'],
   input: './ts/admob.ts',
   output: {
-    file: 'www/admob.js',
+    file: 'www/admb345.js',
     format: 'cjs',
     sourcemap: true,
   },
